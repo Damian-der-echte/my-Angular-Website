@@ -1,0 +1,140 @@
+.faehigkeiten-page {
+  background: linear-gradient(to bottom, #d7e3f4, #cfdcf0);
+  padding: 40px 30px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.faehigkeiten-wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.faehigkeiten-text-box {
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.35);
+  padding: 28px;
+  border-radius: 18px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  color: #1a1a1a;
+}
+
+.faehigkeiten-text-box h2 {
+  margin: 0 0 20px 0;
+  font-size: 30px;
+  color: #183153;
+}
+
+.faehigkeiten-text-box p {
+  font-size: 18px;
+  line-height: 1.55;
+  margin: 0 0 14px 0;
+}
+
+.faehigkeiten-image-box {
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 0.35);
+  padding: 14px;
+  border-radius: 18px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+.faehigkeiten-image-box img {
+  width: 420px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+}
+
+@media (max-width: 700px) {
+  .faehigkeiten-page {
+    padding: 50px 16px 24px 16px;
+  }
+
+  .faehigkeiten-wrapper {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .faehigkeiten-text-box {
+    padding: 22px;
+  }
+
+  .faehigkeiten-text-box h2 {
+    font-size: 24px;
+  }
+
+  .faehigkeiten-text-box p {
+    font-size: 16px;
+  }
+
+  .faehigkeiten-image-box {
+    align-self: center;
+    width: 100%;
+    max-width: 460px;
+  }
+
+  .faehigkeiten-image-box img {
+    width: 100%;
+  }
+}
+.faehigkeiten-page {
+  background-color: #d7e3f4;
+  padding: 16px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.faehigkeiten-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.faehigkeiten-text {
+  max-width: 760px;
+  color: #111;
+}
+
+.faehigkeiten-text p {
+  font-size: 18px;
+  line-height: 1.35;
+  margin: 0 0 10px 0;
+}
+
+.faehigkeiten-image img {
+  width: 500px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 700px) {
+  .faehigkeiten-page {
+    padding: 50px 16px 24px 16px;
+  }
+
+  .faehigkeiten-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .faehigkeiten-text {
+    max-width: 100%;
+  }
+
+  .faehigkeiten-text p {
+    font-size: 16px;
+  }
+
+  .faehigkeiten-image img {
+    width: 100%;
+    max-width: 260px;
+  }
+}

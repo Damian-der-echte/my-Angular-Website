@@ -1,0 +1,28 @@
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  background-color: #d7e3f4;
+  border-bottom: 1px solid #444;
+  padding: 8px 12px;
+  box-sizing: border-box;
+}
+
+.toolbar a {
+  color: #111;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+}
+
+@media (max-width: 700px) {
+  .toolbar {
+    justify-content: center;
+    gap: 4px;
+    padding: 8px;
+  }
+
+  .toolbar a {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,54 @@
+.wirtschaft-page {
+  background-color: #d7e3f4;
+  padding: 20px 20px 30px 20px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.wirtschaft-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 28px;
+}
+
+.wirtschaft-image img {
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.wirtschaft-text {
+  max-width: 760px;
+  color: #111;
+}
+
+.wirtschaft-text p {
+  font-size: 18px;
+  line-height: 1.35;
+  margin: 0 0 10px 0;
+}
+
+@media (max-width: 700px) {
+  .wirtschaft-page {
+    padding: 50px 16px 24px 16px;
+  }
+
+  .wirtschaft-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .wirtschaft-text {
+    max-width: 100%;
+  }
+
+  .wirtschaft-text p {
+    font-size: 16px;
+  }
+
+  .wirtschaft-image img {
+    width: 100%;
+    max-width: 260px;
+  }
+}
